@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Set character encoding to UTF-8 -->
+  <meta charset="UTF-8">
+
+  <!-- Title of the page shown in the browser tab -->
+  <title>Sign Up</title>
+  <link rel="icon" href="Logo.ico" type="image/x-icon" />
+  <!-- Link to external CSS file for shared styling between sign-up and contact pages -->
+  <link rel="stylesheet" href="css(signup+contact).css">
+</head>
+<body>
+
+  <!-- Main container that holds the form and centers it using CSS Flexbox -->
+  <div class="container">
+
+    <!-- The sign-up form -->
+    <form class="signup-form">
+
+      <!-- Logo image at the top of the form -->
+      <img src="Logo.jpg" alt="Logo" class="logo">
+
+      <!-- Form title -->
+      <h2>Create Account</h2>
+
+      <!-- Username input -->
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter username" required>
+
+      <!-- Email input -->
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter email" required>
+
+      <!-- Password input -->
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password" required>
+
+      <!-- Submit button -->
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</body>
+</html>
